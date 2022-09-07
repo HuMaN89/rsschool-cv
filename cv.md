@@ -49,7 +49,6 @@
         }
         return array
       }
-
      ```
 
    - ```function getSum( a,b ){
