@@ -34,24 +34,6 @@
      }
      ```
 
-   - ```function sortArray(array) {
-        let subArr = [], i;
-        for( i = 0; i < array.length; i++) {
-          if (array[i] % 2 !== 0) {
-            subArr.push(array[i])
-          }
-        }
-        subArr.sort((a, b) => a - b)
-        for( i = 0; i < array.length; i++) {
-          if (array[i] % 2 !== 0) {
-            array[i] = subArr.shift();
-          }
-        }
-        return array
-      }
-
-     ```
-
    - ```function getSum( a,b ){
         if (a > b) {
          [a, b] = [b, a]
