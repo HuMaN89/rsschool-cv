@@ -5,6 +5,7 @@
 }
 body {
   padding: 60px;
+  background-color: #ea8164;
 }
 .wrapper {
   display: flex;
@@ -14,6 +15,7 @@ body {
   background: #00282e;
   margin: auto;
   border-radius: 25px;
+  overflow: hidden;
 }
 .sidebar {
   max-width: 400px;
@@ -36,7 +38,7 @@ body {
   font-weight: 400;
   font-size: 44px;
   line-height: 60px;
-  color: #ef5c0a;
+  color: #fbcb20;
 }
 .title span {
   display: block;
@@ -51,7 +53,7 @@ body {
   font-weight: 400;
   font-size: 36px;
   line-height: 60px;
-  color: #ef5c0a;
+  color: #fbcb20;
 }
 .nav {
 }
@@ -78,6 +80,57 @@ body {
   position: relative;
   width: 900px;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 15px auto;
+  width: 100%;
+  height: 900px;
+  text-align: center;
+  color: white;
+}
+section .title {
+  margin-top: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 60px;
+  color: #fbcb20;
+}
+.contacts-list {
+  margin-left: 100px;
+  width: 500px;
+  text-align-last: left;
+}
+.contacts-item {
+  list-style: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.contacts-icon {
+  width: 30px;
+  height: 30px;
+  fill: #fbcb20;
+}
+.contacts-item span {
+  display: inline-block;
+  line-height: 40px;
+}
+.description {
+  padding: 25px;
+  color: #fff;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+}
 .footer {
   position: absolute;
   display: flex;
@@ -95,8 +148,19 @@ body {
 }
 .footer-logo {
   display: block;
-  width: 220px;
-  height: 100%;
+  width: 120px;
+  height: 50px;
   background-image: url(https://rs.school/images/rs_school_js.svg);
   background-repeat: no-repeat;
+}
+.icons {
+  display: flex;
+}
+.icons-item {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  text-decoration: none;
+  color: #fbcb20;
 }
