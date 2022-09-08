@@ -200,11 +200,13 @@ section .title {
   margin-bottom: 15px;
 }
 .footer-logo {
+  font-size: 0;
   display: block;
-  width: 120px;
-  height: 50px;
+  width: 180px;
+  height: 60px;
   background-image: url(https://rs.school/images/rs_school_js.svg);
   background-repeat: no-repeat;
+  background-size: contain;
 }
 .icons {
   display: flex;
