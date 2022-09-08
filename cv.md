@@ -23,27 +23,29 @@
 
 5. ### code examples
 
-   - ```function reverseWords(str) {
-         let arr = str.split(' '),
-         i,
-         result = [];
-       for(i = 0; i < arr.length; i++) {
-           result.push(arr[i].split('').reverse().join(''));
+   - ```
+     function reverseWords(str) {
+           let arr = str.split(' '),
+           i,
+           result = [];
+         for(i = 0; i < arr.length; i++) {
+             result.push(arr[i].split('').reverse().join(''));
+         }
+       return result.join(' ');
        }
-     return result.join(' ');
-     }
      ```
 
-   - ```function getSum( a,b ){
-        if (a > b) {
-         [a, b] = [b, a]
+   - ```
+     function getSum( a,b ){
+          if (a > b) {
+           [a, b] = [b, a]
+          }
+          let result = 0;
+          for(let i = a; i <= b; i++) {
+            result += i;
+          }
+          return result
         }
-        let result = 0;
-        for(let i = a; i <= b; i++) {
-          result += i;
-        }
-        return result
-      }
      ```
 
 6. I made up for the library [website](http://www.kostrcbs.kz/) and put it on wordpress , carried out educational projects on the website [react-pizza](https://github.com/HuMaN89/react-pizza), [breaking bad](https://github.com/HuMaN89/marvel), [cats](https://github.com/HuMaN89/cats)

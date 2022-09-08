@@ -4,14 +4,13 @@
   box-sizing: border-box;
 }
 body {
-  padding: 60px;
+  padding: 10px;
   background-color: #ea8164;
 }
 .wrapper {
   display: flex;
   justify-content: space-evenly;
   max-width: 1440px;
-  min-height: 1024px;
   background: #00282e;
   margin: auto;
   border-radius: 25px;
@@ -20,6 +19,7 @@ body {
 .sidebar {
   max-width: 400px;
   position: relative;
+  padding-bottom: 90px;
 }
 .profile {
   text-align: center;
@@ -55,8 +55,6 @@ body {
   line-height: 60px;
   color: #fbcb20;
 }
-.nav {
-}
 .nav-item {
   display: block;
   width: 100%;
@@ -69,18 +67,29 @@ body {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
+  cursor: pointer;
   transition: all 0.5s ease;
 }
 .nav-item:hover {
   font-size: 32px;
   text-decoration: underline;
 }
+.nav-item--active {
+  font-size: 32px;
+  text-decoration: underline;
 
+  color: rgb(235, 135, 135);
+}
 .main {
   position: relative;
   width: 900px;
 }
-
+.hide {
+  display: none;
+}
+.show {
+  display: flex;
+}
 section {
   display: flex;
   flex-direction: column;
@@ -102,27 +111,57 @@ section .title {
   line-height: 60px;
   color: #fbcb20;
 }
-.contacts-list {
+.section-list {
   margin-left: 100px;
   width: 500px;
   text-align-last: left;
 }
-.contacts-item {
+.section-item {
   list-style: none;
   font-family: "Inter";
   font-style: normal;
+  line-height: 35px;
   font-weight: 400;
   font-size: 20px;
   margin-top: 15px;
 }
-.contacts-icon {
+#skils .section-item {
+  padding-left: 40px;
+  line-height: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.html {
+  background-image: url(assets/img/html5.png);
+}
+.css {
+  background-image: url(assets/img/css.png);
+}
+.scss {
+  background-image: url(assets/img/scss.png);
+}
+.js {
+  background-image: url(assets/img/js.png);
+}
+.react {
+  background-image: url(assets/img/react.png);
+}
+.git {
+  background-image: url(assets/img/git.png);
+}
+.figma {
+  background-image: url(assets/img/figma.png);
+}
+.photoshop {
+  background-image: url(assets/img/photoshop.png);
+}
+.section-icon {
   width: 30px;
   height: 30px;
   fill: #fbcb20;
 }
-.contacts-item span {
+.section-item span {
   display: inline-block;
-  line-height: 40px;
 }
 .description {
   padding: 25px;
@@ -130,6 +169,20 @@ section .title {
   font-family: "Inter";
   font-weight: 400;
   font-size: 24px;
+}
+
+.examples {
+  width: 100%;
+}
+.examples-item {
+  text-align: left;
+  margin-top: 10px;
+  background-color: #ccc;
+  color: #00282e;
+  font-size: 20px;
+}
+.experiance-link {
+  color: inherit;
 }
 .footer {
   position: absolute;
