@@ -204,7 +204,7 @@ section .title {
   display: block;
   width: 180px;
   height: 60px;
-  background-image: url(https://rs.school/images/rs_school_js.svg);
+  background-image: url(assets/img/rs_school_js.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
