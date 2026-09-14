@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+  background-color: #ea8164;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1440px;
+  background: #00282e;
+  margin: auto;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.sidebar {
+  max-width: 400px;
+  position: relative;
+  padding-bottom: 10px;
+}
+.profile {
+  text-align: center;
+}
+.profile-logo {
+  border-radius: 50%;
+  width: 156px;
+  border: 2px solid #fbcb20;
+  height: 156px;
+  margin-top: 20px;
+}
+.title {
+  margin-top: 20px;
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 60px;
+  color: #fbcb20;
+}
+.title span {
+  display: block;
+  margin: 15px;
+  max-width: 295px;
+  height: 1px;
+  background-color: #fbcb20;
+}
+.subtitle {
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  color: #fbcb20;
+}
+.nav-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.nav-item:hover {
+  font-size: 24px;
+  text-decoration: underline;
+}
+.nav-item--active {
+  font-size: 32px;
+  text-decoration: underline;
+
+  color: rgb(235, 135, 135);
+}
+.main {
+  position: relative;
+  width: 900px;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: flex;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 15px auto;
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+  color: white;
+}
+section .title {
+  margin-top: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 60px;
+  color: #fbcb20;
+}
+.section-list {
+  margin-left: 100px;
+  width: 500px;
+  text-align-last: left;
+}
+.section-item {
+  list-style: none;
+  font-family: "Inter";
+  font-style: normal;
+  line-height: 35px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 15px;
+}
+#skils .section-item {
+  padding-left: 40px;
+  line-height: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.html {
+  background-image: url(assets/img/html5.png);
+}
+.css {
+  background-image: url(assets/img/css.png);
+}
+.scss {
+  background-image: url(assets/img/scss.png);
+}
+.js {
+  background-image: url(assets/img/js.png);
+}
+.react {
+  background-image: url(assets/img/react.png);
+}
+.git {
+  background-image: url(assets/img/git.png);
+}
+.figma {
+  background-image: url(assets/img/figma.png);
+}
+.photoshop {
+  background-image: url(assets/img/photoshop.png);
+}
+.section-icon {
+  width: 30px;
+  height: 30px;
+  fill: #fbcb20;
+}
+.section-item span {
+  display: inline-block;
+}
+.description {
+  padding: 25px;
+  color: #fff;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.examples {
+  width: 100%;
+}
+.examples-item {
+  text-align: left;
+  margin-top: 10px;
+  background-color: #ccc;
+  color: #00282e;
+  font-size: 20px;
+}
+.experiance-link {
+  color: inherit;
+}
+.footer {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  color: #fff;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 15px;
+}
+.footer-logo {
+  font-size: 0;
+  display: block;
+  width: 180px;
+  height: 60px;
+  background-image: url(assets/img/rs_school_js.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.icons {
+  display: flex;
+}
+.icons-item {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  font-size: 0;
+  text-decoration: none;
+  color: #fbcb20;
+}
